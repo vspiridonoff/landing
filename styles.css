@@ -24,12 +24,12 @@ header nav {
 html,body {
 	width: 100%;
 	height: 100%;
+    display: block;
 }
 
 body {
-	background:
+    background: url(img/bg-1.png);
     background-repeat: no-repeat;
-    background-image: url(img/bg-1.png);
     background-size: cover;
     background-position: center center;
     width: 100%;
@@ -77,20 +77,23 @@ header nav .top-menu {
     padding: 0;
     color: blanchedalmond;
 
-nav li {
-	float:left;
-	list-style: none;
-}
 nav li a {
 	font-size: 20px;
 	font-weight: bold;
 	text-decoration: none;
-	padding: 0 30px;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 nav li a:hover {
-	color: aqua;
+	color: #4873f2;
+    }
+
+header .banner {
+
+}
+
+.button {
+padding-left: 100px;
 }
 
 main {
@@ -98,28 +101,19 @@ text-align: center;
 }
 
 #home {
-	font-size: 30px;
-	height:350px;
-	margin: 55px 1px 1px 1px;
-	padding: 30px;
+
 }
 
 #features {
-	border-top-style: solid;
-	line-height: 1.5;
-	padding: 30px;
+
 }
 
 #faq {
-	border-top-style: solid;
-	line-height: 1.5;
-	padding: 30px;
+
 }
 
 #contact {
-	border-top-style: solid;
-	line-height: 1.5;
-	padding: 30px;
+
 }
 
 #main-watch img
