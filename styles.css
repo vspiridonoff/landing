@@ -1,6 +1,24 @@
-*{
+@font-face{
+font-family: Arial, Helvetica, sans-serif;
+src: url(font/HelveticaNowDisplayXBlk.otf);
+
+}
+
+h1, h2, h3, p {
 	margin: 0;
 	padding: 0;
+}
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+@media (min-width: 500px)
+header nav {
+    display: flex;
+    align-items: center;
 }
 
 html,body {
@@ -19,28 +37,45 @@ body {
     opacity: 1;
     visibility: inherit;
     z-index: 20;
+    max-width: 1140px;
+    margin: auto;
 }
 
 header{
 	height:70px;
-	margin: 1px 1px 1px 1px;
-	padding: 20px 1px 1px 1px;
+	padding: 10px 0px 0px 0px;
+    display: block;
 }
 
+
+
 #logo a {
-	margin-left: 20px;
-	float: left;
 	font-weight: bold;
 	text-decoration: none;
 	font-size: 26px;
-	color: #373e47;
+    color: blanchedalmond;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#logo :hover {
+    color: #4873f2;
+
 }
 
 nav {
 	overflow: hidden;
 	float: right;
+    display: flex;
 }
+
+header nav .top-menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    color: blanchedalmond;
 
 nav li {
 	float:left;
@@ -51,12 +86,11 @@ nav li a {
 	font-weight: bold;
 	text-decoration: none;
 	padding: 0 30px;
-	color: gray;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 nav li a:hover {
-	color: white;
+	color: aqua;
 }
 
 main {
@@ -66,7 +100,7 @@ text-align: center;
 #home {
 	font-size: 30px;
 	height:350px;
-	margin: 1px 1px 1px 1px;
+	margin: 55px 1px 1px 1px;
 	padding: 30px;
 }
 
@@ -76,14 +110,19 @@ text-align: center;
 	padding: 30px;
 }
 
-#portfolio {
+#faq {
 	border-top-style: solid;
 	line-height: 1.5;
 	padding: 30px;
 }
 
-#feedback {
+#contact {
 	border-top-style: solid;
 	line-height: 1.5;
 	padding: 30px;
+}
+
+#main-watch img
+{
+    padding-left: 50px;
 }
