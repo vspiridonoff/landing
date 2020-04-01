@@ -33,13 +33,14 @@ body {
 	font-weight: bold;
 	text-decoration: none;
     font-size: 2rem;
-    color: blanchedalmond;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
+    text-align: center;
 }
 
 #logo a {
 	text-decoration: none;
+    color: blanchedalmond;
 }
 
 #logo :hover {
@@ -50,15 +51,16 @@ header nav .top-menu {
     display: flex;
     justify-content: space-around;
     list-style: none;
-    padding: 0px;
+    text-align: center;
+    padding: 10px 5px 5px 600px;
 }
 
 header nav .top-menu li a {
     text-decoration: none;
     text-transform: uppercase;
     color: blanchedalmond;
-    padding: 5px;
     border: 1px solid transparent;
+
 }
 
 header nav .top-menu li a:hover {
@@ -66,7 +68,7 @@ header nav .top-menu li a:hover {
     color:#4873f2;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
     header nav {
         display: flex;
         align-items: center;
