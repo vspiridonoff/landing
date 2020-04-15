@@ -77,8 +77,14 @@ header nav .top-menu li a:hover {
     }
 }
 
-.main-watch {
-    width: 25%;
+
+.carousel{
+width: 35%;
+margin-top: 50px;
+}
+
+#navbarSupportedContent {
+    float: right;
 }
 
 #features {
