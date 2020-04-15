@@ -90,3 +90,9 @@ margin-top: 50px;
 #features {
     background: linear-gradient(50deg, #0d1338 0%, #d5235b 0%, #cd2861 0%, #0099ff 92%) !important;
 }
+
+#demo {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
