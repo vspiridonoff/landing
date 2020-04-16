@@ -12,6 +12,9 @@
     scroll-behavior: smooth;
 }
 
+h1 {
+    color: antiquewhite;
+}
 h1, h2, h3, p {
     margin: 0;
     padding: 0;
@@ -54,6 +57,11 @@ header nav .top-menu {
     padding: 10px 5px 5px 600px;
 }
 
+.old-price {
+text-decoration: line-through;
+text-decoration: antiquewhite;
+}
+
 header nav .top-menu li a {
     text-decoration: none;
     text-transform: uppercase;
@@ -79,8 +87,7 @@ header nav .top-menu li a:hover {
 
 
 .carousel{
-width: 35%;
-margin-top: 50px;
+margin-top: 5px;
 }
 
 #navbarSupportedContent {
@@ -93,6 +100,5 @@ margin-top: 50px;
 
 #demo {
     color: white;
-    text-align: center;
-    font-size: 25px;
+    font-size: 21px;
 }
